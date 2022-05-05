@@ -1,4 +1,12 @@
-/* Find the HTML Elements based on the HTML TAGS */
+/* Targetting the Elements inside HTML Page. */
+/* 1: Find the HTML Elements based on the HTML TAGS */
 p {
   color: brown;  
 }
+
+/* 2: Targeting HTML Elements based on ID */
+/* Note that the id are indentical. */
+#heading {
+ color: red; 
+}
+
