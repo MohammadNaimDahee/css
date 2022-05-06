@@ -1,5 +1,6 @@
 /* Targetting the Elements inside HTML Page. */
 /* 1: Find the HTML Elements based on the HTML TAGS */
+/* Selectors */
 p {
   color: green;  
 }
@@ -22,3 +23,12 @@ p {
  margin: 10px;
 }
 
+p.btn {
+  color: red;
+}
+
+/* 4: Universal Selector */
+* {
+  text-align: center;
+  color: blue;
+}
