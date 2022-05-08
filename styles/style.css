@@ -9,7 +9,7 @@ p {
 /* Note that the id are indentical. */
 #heading {
   font-size: 24px;
- color: red; 
+  color: #ff6347;
 }
 
 #description {
@@ -31,4 +31,40 @@ p.btn {
 * {
   text-align: center;
   color: blue;
+}
+
+
+/* Background Image */
+body {
+  /* background-image: url("../images/1.webp");
+  background-repeat: no-repeat;
+  background-position: right top; */
+}
+
+/* Applying Border, Padding, and Margin Styles */
+#para {
+  /* border-width: 2px; */
+  /* border-color: #ff6347; */
+  /* border-style: dotted solid double dashed; */
+  /* Border Style Shorthand */
+  border: 1px solid red;
+  border-radius: 15px;
+  /* border-bottom-color: aqua; */
+  /* border-bottom-left-radius: 5px; */
+  /* margin-top: 30px; */
+}
+
+#first_name {
+  margin-bottom: 30px;
+}
+
+div {
+  border: 2px solid green;
+  /* padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 25px 50px 75px 100px;
+  /* margin: 20px; */
+  margin-top: 25px;
 }
