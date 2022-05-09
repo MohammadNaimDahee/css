@@ -3,6 +3,10 @@
 /* Selectors */
 p {
   color: green;  
+  /* Text Decoration examples */
+  /* text-decoration-line: overline underline line-through;
+  text-decoration-color: green;
+  text-decoration-style: dotted; */
 }
 
 /* 2: Targeting HTML Elements based on ID */
@@ -67,4 +71,20 @@ div {
   padding: 25px 50px 75px 100px;
   /* margin: 20px; */
   margin-top: 25px;
+  height: 200px;
+  width: 50%;
 }
+
+h2 {
+  text-align: left;
+  text-shadow: 2px 2px 5px red;
+  font-size: 20px;
+}
+
+/* Fonts */
+/* Google Fonts */
+/* Go access the google fonts -> refer to (https://fonts.google.com/) */
+
+/* a {
+  text-decoration: none;
+} */
