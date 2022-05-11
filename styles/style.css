@@ -68,11 +68,11 @@ div {
   padding-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px; */
-  padding: 25px 50px 75px 100px;
   /* margin: 20px; */
   margin-top: 25px;
-  height: 200px;
-  width: 50%;
+  /* height: 200px; */
+  width: 49%;
+  float: left;
 }
 
 h2 {
@@ -88,3 +88,46 @@ h2 {
 /* a {
   text-decoration: none;
 } */
+
+.fa {
+  color: #ff6347;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border: #ff6347 1px solid;
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 2px;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: #ff6347;
+}
+
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #ff6347;
+}
+
+li {
+  /* visibility: hidden; */
+  display: initial;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#para2 {
+  float: inherit;
+}
